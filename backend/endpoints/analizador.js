@@ -38,7 +38,6 @@ module.exports=(parser, app)=>{
         
     })
     app.get('/CrearAST',(req,res)=>{
-        console.log("Graficando........")
         dot =grafica.graficar()
         graficarSimbolos(false,true)
         //console.log(dot)
