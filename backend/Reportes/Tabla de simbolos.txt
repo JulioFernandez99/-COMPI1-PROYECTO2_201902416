@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    
+<table style="width: 100%;">
+
+    <tr>
+  
+      <th>Identificador</th>
+  
+      <th>Tipo</th>
+  
+      <th>Tipo</th>
+  
+      <th>Entorno</th>
+  
+      <th>Linea</th>
+    
+      <th>Columna</th>
+
+    </tr>
+   <tr>
+       <td>f</td>
+   </tr>
+   <tr>
+       <td>edad</td>
+   </tr>
+   <tr>
+       <td>nm</td>
+   </tr>
+   <tr>
+       <td>m</td>
+   </tr>
+   <tr>
+       <td>s</td>
+   </tr>
+ </table>
+</body>
+</html>

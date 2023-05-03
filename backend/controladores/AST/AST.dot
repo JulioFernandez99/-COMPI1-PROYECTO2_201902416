@@ -1,0 +1,139 @@
+digraph G {
+node[shape="box"]Nodo0[label="RAIZ"];
+Nodo1[label="DEC_METODO"];
+Nodo0->Nodo1;
+Nodo2[label="IDENTIFICADOR 
+ metodo1"];
+Nodo1->Nodo2;
+Nodo3[label="INSTRUCCIONES"];
+Nodo1->Nodo3;
+Nodo4[label="Llamar
+figura1"];
+Nodo3->Nodo4;
+Nodo5[label="DEC_METODO"];
+Nodo0->Nodo5;
+Nodo6[label="IDENTIFICADOR 
+ figura1"];
+Nodo5->Nodo6;
+Nodo7[label="PARAMETROS"];
+Nodo5->Nodo7;
+Nodo8[label="TIPO 
+ ENTERO"];
+Nodo7->Nodo8;
+Nodo9[label="ID 
+ n"];
+Nodo7->Nodo9;
+Nodo10[label="INSTRUCCIONES"];
+Nodo5->Nodo10;
+Nodo11[label="DECLARACION"];
+Nodo10->Nodo11;
+Nodo12[label="TIPO 
+ CADENA"];
+Nodo11->Nodo12;
+Nodo13[label="ID 
+ cadenaFigura"];
+Nodo11->Nodo13;
+Nodo14[label=" VAL_CADENA
+ \"\""];
+Nodo11->Nodo14;
+Nodo15[label="DECLARACION"];
+Nodo10->Nodo15;
+Nodo16[label="TIPO 
+ DECIMAL"];
+Nodo15->Nodo16;
+Nodo17[label="ID 
+ i"];
+Nodo15->Nodo17;
+Nodo18[label="ASIGNACION"];
+Nodo10->Nodo18;
+Nodo19[label="IDENTIFICADOR 
+ i"];
+Nodo18->Nodo19;
+Nodo20[label="WHILE"];
+Nodo10->Nodo20;
+Nodo21[label="ASIGNACION"];
+Nodo20->Nodo21;
+Nodo22[label="IDENTIFICADOR 
+ cadenaFigura"];
+Nodo21->Nodo22;
+Nodo23[label="DECLARACION"];
+Nodo20->Nodo23;
+Nodo24[label="TIPO 
+ DECIMAL"];
+Nodo23->Nodo24;
+Nodo25[label="ID 
+ j"];
+Nodo23->Nodo25;
+Nodo26[label="ASIGNACION"];
+Nodo20->Nodo26;
+Nodo27[label="IDENTIFICADOR 
+ j"];
+Nodo26->Nodo27;
+Nodo28[label="WHILE"];
+Nodo20->Nodo28;
+Nodo29[label="DECLARACION"];
+Nodo28->Nodo29;
+Nodo30[label="TIPO 
+ DECIMAL"];
+Nodo29->Nodo30;
+Nodo31[label="ID 
+ absolutoi"];
+Nodo29->Nodo31;
+Nodo32[label="ASIGNACION"];
+Nodo28->Nodo32;
+Nodo33[label="IDENTIFICADOR 
+ absolutoi"];
+Nodo32->Nodo33;
+Nodo34[label="DECLARACION"];
+Nodo28->Nodo34;
+Nodo35[label="TIPO 
+ DECIMAL"];
+Nodo34->Nodo35;
+Nodo36[label="ID 
+ absolutoj"];
+Nodo34->Nodo36;
+Nodo37[label="ASIGNACION"];
+Nodo28->Nodo37;
+Nodo38[label="IDENTIFICADOR 
+ absolutoj"];
+Nodo37->Nodo38;
+Nodo39[label="IF"];
+Nodo28->Nodo39;
+Nodo40[label="ASIGNACION"];
+Nodo39->Nodo40;
+Nodo41[label="IDENTIFICADOR 
+ absolutoi"];
+Nodo40->Nodo41;
+Nodo42[label="IF"];
+Nodo28->Nodo42;
+Nodo43[label="ASIGNACION"];
+Nodo42->Nodo43;
+Nodo44[label="IDENTIFICADOR 
+ absolutoj"];
+Nodo43->Nodo44;
+Nodo45[label="ASIGNACION"];
+Nodo28->Nodo45;
+Nodo46[label="IDENTIFICADOR 
+ j"];
+Nodo45->Nodo46;
+Nodo47[label="PRINT"];
+Nodo20->Nodo47;
+Nodo48[label=" VAL_IDENTIFICADOR
+ cadenaFigura"];
+Nodo47->Nodo48;
+Nodo49[label="ASIGNACION"];
+Nodo20->Nodo49;
+Nodo50[label="IDENTIFICADOR 
+ i"];
+Nodo49->Nodo50;
+Nodo51[label="PRINT"];
+Nodo10->Nodo51;
+Nodo52[label=" VAL_CADENA
+ \"Si la figura es un corazón, te aseguro que tendrás un 100 :3\""];
+Nodo51->Nodo52;
+Nodo53[label="MAIN"];
+Nodo0->Nodo53;
+Nodo54[label="LLAMADA 
+ metodo1"];
+Nodo53->Nodo54;
+}
