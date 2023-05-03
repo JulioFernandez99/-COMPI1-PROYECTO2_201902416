@@ -89,7 +89,7 @@ const readFile=(e)=>{
   }
   
   function analizar(){
-    console.log("Analizando......")
+
     axios.post('http://localhost:5000/analizar', {
       entrada: code
     })
